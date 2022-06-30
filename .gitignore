@@ -316,3 +316,6 @@ _Pvt_Extensions
 
 #IntelliJ
 .idea/
+
+#ClientApp generated files
+**/ClientApp/target/**
