@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SampleProject.Domain
 {
-    public class BaseEntity<TKey>
+    public class BaseEntity<TKey> : AuditedEntityBase
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
