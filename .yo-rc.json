@@ -24,10 +24,21 @@
     "enableGradleEnterprise": false,
     "enableHibernateCache": true,
     "enableTranslation": false,
+    "entities": [
+      "Region",
+      "Country",
+      "Location",
+      "Department",
+      "TaskItem",
+      "Employee",
+      "Job",
+      "JobHistory"
+    ],
     "entitySuffix": "",
     "jhiPrefix": "jhi",
     "jhipsterVersion": "7.8.1",
     "languages": ["en", "fr"],
+    "lastLiquibaseTimestamp": 1656572800000,
     "namespace": "SampleProject",
     "nativeLanguage": "ru",
     "otherModules": [
